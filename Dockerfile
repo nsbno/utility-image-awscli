@@ -6,7 +6,7 @@ RUN apk add --update --no-cache \
     unzip \
     jq \
     openssh
-RUN pip install \
+RUN pip install --no-cache-dir \
     awscli
 
 FROM resource
