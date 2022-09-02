@@ -1,5 +1,5 @@
 FROM python:3.8-alpine as resource
-ARG AWSCLI_VERSION=1.22.76
+ARG AWSCLI_VERSION=1.25.66
 
 RUN apk add --update --no-cache \
     bash \
